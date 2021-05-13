@@ -19,7 +19,7 @@ app.get('/api/location', (req, res) => {
   }
 
   fetch(`http://api.geonames.org/searchJSON?q=${param}&maxRows=10&username=dimagi`)
-    .then(res => res.json())
+    .then(locationData => locationData.json())
     .then(json => res.json(json));
 });
 
