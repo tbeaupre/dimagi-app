@@ -1,0 +1,17 @@
+{
+  "name": "dimagi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "imap": "^0.8.19",
+    "node-fetch": "^2.6.1"
+  }
+}
